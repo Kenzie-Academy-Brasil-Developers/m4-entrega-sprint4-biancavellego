@@ -8,7 +8,6 @@ import {
   BeforeInsert,
   BeforeUpdate,
   DeleteDateColumn,
-  BeforeRemove,
 } from "typeorm";
 
 //OBS: 1-) decorator => funções do typeORM. 2-) typeORM já possui uuidv4.

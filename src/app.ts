@@ -1,4 +1,5 @@
 import express from "express";
+import "reflect-metadata";
 import "express-async-errors";
 import handleError from "./errors/handleError";
 import usersRoutes from "./routers/user.routes";
